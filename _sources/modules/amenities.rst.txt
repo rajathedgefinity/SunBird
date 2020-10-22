@@ -1,0 +1,33 @@
+amenities package
+=================
+
+Subpackages
+-----------
+
+.. toctree::
+   :maxdepth: 4
+
+   amenities.api
+   amenities.migrations
+
+Submodules
+----------
+
+.. toctree::
+   :maxdepth: 4
+
+   amenities.admin
+   amenities.apps
+   amenities.models
+   amenities.permissions
+   amenities.tests
+   amenities.urls
+   amenities.views
+
+Module contents
+---------------
+
+.. automodule:: amenities
+   :members:
+   :undoc-members:
+   :show-inheritance:

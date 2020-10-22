@@ -1,0 +1,7 @@
+customer.permissions module
+===========================
+
+.. automodule:: customer.permissions
+   :members:
+   :undoc-members:
+   :show-inheritance:

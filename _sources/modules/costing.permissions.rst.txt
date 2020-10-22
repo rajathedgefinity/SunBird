@@ -1,0 +1,7 @@
+costing.permissions module
+==========================
+
+.. automodule:: costing.permissions
+   :members:
+   :undoc-members:
+   :show-inheritance:

@@ -1,0 +1,7 @@
+customer.api.views module
+=========================
+
+.. automodule:: customer.api.views
+   :members:
+   :undoc-members:
+   :show-inheritance:

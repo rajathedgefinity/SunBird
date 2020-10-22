@@ -1,0 +1,7 @@
+costing.tests module
+====================
+
+.. automodule:: costing.tests
+   :members:
+   :undoc-members:
+   :show-inheritance:

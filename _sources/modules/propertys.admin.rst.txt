@@ -1,0 +1,7 @@
+propertys.admin module
+======================
+
+.. automodule:: propertys.admin
+   :members:
+   :undoc-members:
+   :show-inheritance:

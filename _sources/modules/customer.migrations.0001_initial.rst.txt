@@ -1,0 +1,7 @@
+customer.migrations.0001\_initial module
+========================================
+
+.. automodule:: customer.migrations.0001_initial
+   :members:
+   :undoc-members:
+   :show-inheritance:

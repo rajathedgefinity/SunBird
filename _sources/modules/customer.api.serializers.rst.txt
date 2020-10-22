@@ -1,0 +1,7 @@
+customer.api.serializers module
+===============================
+
+.. automodule:: customer.api.serializers
+   :members:
+   :undoc-members:
+   :show-inheritance:

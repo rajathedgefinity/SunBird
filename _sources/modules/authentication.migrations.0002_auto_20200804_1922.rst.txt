@@ -1,0 +1,7 @@
+authentication.migrations.0002\_auto\_20200804\_1922 module
+===========================================================
+
+.. automodule:: authentication.migrations.0002_auto_20200804_1922
+   :members:
+   :undoc-members:
+   :show-inheritance:

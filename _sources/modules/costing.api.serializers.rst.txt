@@ -1,0 +1,7 @@
+costing.api.serializers module
+==============================
+
+.. automodule:: costing.api.serializers
+   :members:
+   :undoc-members:
+   :show-inheritance:

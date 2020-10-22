@@ -1,0 +1,20 @@
+propertys.api package
+=====================
+
+Submodules
+----------
+
+.. toctree::
+   :maxdepth: 4
+
+   propertys.api.serializers
+   propertys.api.urls
+   propertys.api.views
+
+Module contents
+---------------
+
+.. automodule:: propertys.api
+   :members:
+   :undoc-members:
+   :show-inheritance:

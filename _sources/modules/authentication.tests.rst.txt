@@ -1,0 +1,7 @@
+authentication.tests module
+===========================
+
+.. automodule:: authentication.tests
+   :members:
+   :undoc-members:
+   :show-inheritance:

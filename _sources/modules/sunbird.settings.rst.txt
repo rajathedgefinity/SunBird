@@ -1,0 +1,7 @@
+sunbird.settings module
+=======================
+
+.. automodule:: sunbird.settings
+   :members:
+   :undoc-members:
+   :show-inheritance:

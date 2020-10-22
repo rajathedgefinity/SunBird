@@ -1,0 +1,7 @@
+authentication.api.serializers module
+=====================================
+
+.. automodule:: authentication.api.serializers
+   :members:
+   :undoc-members:
+   :show-inheritance:

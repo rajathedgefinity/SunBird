@@ -1,0 +1,7 @@
+costing.views module
+====================
+
+.. automodule:: costing.views
+   :members:
+   :undoc-members:
+   :show-inheritance:

@@ -1,0 +1,7 @@
+propertys.api.serializers module
+================================
+
+.. automodule:: propertys.api.serializers
+   :members:
+   :undoc-members:
+   :show-inheritance:

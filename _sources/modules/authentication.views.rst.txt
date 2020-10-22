@@ -1,0 +1,7 @@
+authentication.views module
+===========================
+
+.. automodule:: authentication.views
+   :members:
+   :undoc-members:
+   :show-inheritance:

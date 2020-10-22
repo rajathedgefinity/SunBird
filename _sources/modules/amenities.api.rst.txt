@@ -1,0 +1,20 @@
+amenities.api package
+=====================
+
+Submodules
+----------
+
+.. toctree::
+   :maxdepth: 4
+
+   amenities.api.serializers
+   amenities.api.urls
+   amenities.api.views
+
+Module contents
+---------------
+
+.. automodule:: amenities.api
+   :members:
+   :undoc-members:
+   :show-inheritance:

@@ -1,0 +1,19 @@
+authentication.migrations package
+=================================
+
+Submodules
+----------
+
+.. toctree::
+   :maxdepth: 4
+
+   authentication.migrations.0001_initial
+   authentication.migrations.0002_auto_20200804_1922
+
+Module contents
+---------------
+
+.. automodule:: authentication.migrations
+   :members:
+   :undoc-members:
+   :show-inheritance:

@@ -1,0 +1,7 @@
+propertys.models module
+=======================
+
+.. automodule:: propertys.models
+   :members:
+   :undoc-members:
+   :show-inheritance:

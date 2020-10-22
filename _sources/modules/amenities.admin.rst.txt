@@ -1,0 +1,7 @@
+amenities.admin module
+======================
+
+.. automodule:: amenities.admin
+   :members:
+   :undoc-members:
+   :show-inheritance:

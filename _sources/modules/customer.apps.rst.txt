@@ -1,0 +1,7 @@
+customer.apps module
+====================
+
+.. automodule:: customer.apps
+   :members:
+   :undoc-members:
+   :show-inheritance:

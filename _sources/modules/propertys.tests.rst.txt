@@ -1,0 +1,7 @@
+propertys.tests module
+======================
+
+.. automodule:: propertys.tests
+   :members:
+   :undoc-members:
+   :show-inheritance:

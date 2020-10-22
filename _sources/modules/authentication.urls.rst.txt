@@ -1,0 +1,7 @@
+authentication.urls module
+==========================
+
+.. automodule:: authentication.urls
+   :members:
+   :undoc-members:
+   :show-inheritance:

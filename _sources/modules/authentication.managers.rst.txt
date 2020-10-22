@@ -1,0 +1,7 @@
+authentication.managers module
+==============================
+
+.. automodule:: authentication.managers
+   :members:
+   :undoc-members:
+   :show-inheritance:

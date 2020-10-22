@@ -1,0 +1,321 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>costing.api.views module &mdash; SunBird 0.1(beta) documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+
+  
+  
+  
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/doctools.js"></script>
+        <script src="../_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="costing.migrations package" href="costing.migrations.html" />
+    <link rel="prev" title="costing.api.urls module" href="costing.api.urls.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../index.html" class="icon icon-home" alt="Documentation Home"> SunBird
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="authentication.html">authentication package</a></li>
+<li class="toctree-l1"><a class="reference internal" href="amenities.html">amenities package</a></li>
+<li class="toctree-l1"><a class="reference internal" href="propertys.html">propertys package</a></li>
+<li class="toctree-l1"><a class="reference internal" href="customer.html">customer package</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="costing.html">costing package</a><ul class="current">
+<li class="toctree-l2 current"><a class="reference internal" href="costing.html#subpackages">Subpackages</a><ul class="current">
+<li class="toctree-l3 current"><a class="reference internal" href="costing.api.html">costing.api package</a><ul class="current">
+<li class="toctree-l4 current"><a class="reference internal" href="costing.api.html#submodules">Submodules</a></li>
+<li class="toctree-l4"><a class="reference internal" href="costing.api.html#module-costing.api">Module contents</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="costing.migrations.html">costing.migrations package</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="costing.html#submodules">Submodules</a></li>
+<li class="toctree-l2"><a class="reference internal" href="costing.html#module-costing">Module contents</a></li>
+</ul>
+</li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">SunBird</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+          <li><a href="costing.html">costing package</a> &raquo;</li>
+        
+          <li><a href="costing.api.html">costing.api package</a> &raquo;</li>
+        
+      <li>costing.api.views module</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="../_sources/modules/costing.api.views.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="module-costing.api.views">
+<span id="costing-api-views-module"></span><h1>costing.api.views module<a class="headerlink" href="#module-costing.api.views" title="Permalink to this headline">¶</a></h1>
+<dl class="py class">
+<dt id="costing.api.views.CostingDetailAPIView">
+<em class="property">class </em><code class="sig-prename descclassname">costing.api.views.</code><code class="sig-name descname">CostingDetailAPIView</code><span class="sig-paren">(</span><em class="sig-param"><span class="o">**</span><span class="n">kwargs</span></em><span class="sig-paren">)</span><a class="headerlink" href="#costing.api.views.CostingDetailAPIView" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">rest_framework.generics.RetrieveUpdateDestroyAPIView</span></code></p>
+<dl class="py method">
+<dt id="costing.api.views.CostingDetailAPIView.get_queryset">
+<code class="sig-name descname">get_queryset</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#costing.api.views.CostingDetailAPIView.get_queryset" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get the list of items for this view.
+This must be an iterable, and may be a queryset.
+Defaults to using <cite>self.queryset</cite>.</p>
+<p>This method should always be used rather than accessing <cite>self.queryset</cite>
+directly, as <cite>self.queryset</cite> gets evaluated only once, and those results
+are cached for all subsequent requests.</p>
+<p>You may want to override this if you need to provide different
+querysets depending on the incoming request.</p>
+<p>(Eg. return a list of items that is specific to the user)</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt id="costing.api.views.CostingDetailAPIView.lookup_field">
+<code class="sig-name descname">lookup_field</code><em class="property"> = 'id'</em><a class="headerlink" href="#costing.api.views.CostingDetailAPIView.lookup_field" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt id="costing.api.views.CostingDetailAPIView.perform_create">
+<code class="sig-name descname">perform_create</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">serializer</span></em><span class="sig-paren">)</span><a class="headerlink" href="#costing.api.views.CostingDetailAPIView.perform_create" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt id="costing.api.views.CostingDetailAPIView.permission_classes">
+<code class="sig-name descname">permission_classes</code><em class="property"> = (&lt;class 'rest_framework.permissions.IsAuthenticated'&gt;, &lt;class 'rest_framework.permissions.IsAdminUser'&gt;)</em><a class="headerlink" href="#costing.api.views.CostingDetailAPIView.permission_classes" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt id="costing.api.views.CostingDetailAPIView.queryset">
+<code class="sig-name descname">queryset</code><em class="property"> = &lt;QuerySet [&lt;CostingModel: Brigade RUbix opted for PLATINIUM created by rajath.ask&#64;gmail.com&gt;, &lt;CostingModel: Brigade RUbix opted for GOLD created by admin&#64;company.com&gt;]&gt;</em><a class="headerlink" href="#costing.api.views.CostingDetailAPIView.queryset" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt id="costing.api.views.CostingDetailAPIView.serializer_class">
+<code class="sig-name descname">serializer_class</code><a class="headerlink" href="#costing.api.views.CostingDetailAPIView.serializer_class" title="Permalink to this definition">¶</a></dt>
+<dd><p>alias of <a class="reference internal" href="costing.api.serializers.html#costing.api.serializers.CostingSerializer" title="costing.api.serializers.CostingSerializer"><code class="xref py py-class docutils literal notranslate"><span class="pre">costing.api.serializers.CostingSerializer</span></code></a></p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="py class">
+<dt id="costing.api.views.CostingListAPIView">
+<em class="property">class </em><code class="sig-prename descclassname">costing.api.views.</code><code class="sig-name descname">CostingListAPIView</code><span class="sig-paren">(</span><em class="sig-param"><span class="o">**</span><span class="n">kwargs</span></em><span class="sig-paren">)</span><a class="headerlink" href="#costing.api.views.CostingListAPIView" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">rest_framework.generics.ListCreateAPIView</span></code></p>
+<dl class="py method">
+<dt id="costing.api.views.CostingListAPIView.get_queryset">
+<code class="sig-name descname">get_queryset</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#costing.api.views.CostingListAPIView.get_queryset" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get the list of items for this view.
+This must be an iterable, and may be a queryset.
+Defaults to using <cite>self.queryset</cite>.</p>
+<p>This method should always be used rather than accessing <cite>self.queryset</cite>
+directly, as <cite>self.queryset</cite> gets evaluated only once, and those results
+are cached for all subsequent requests.</p>
+<p>You may want to override this if you need to provide different
+querysets depending on the incoming request.</p>
+<p>(Eg. return a list of items that is specific to the user)</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="costing.api.views.CostingListAPIView.perform_create">
+<code class="sig-name descname">perform_create</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">serializer</span></em><span class="sig-paren">)</span><a class="headerlink" href="#costing.api.views.CostingListAPIView.perform_create" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt id="costing.api.views.CostingListAPIView.permission_classes">
+<code class="sig-name descname">permission_classes</code><em class="property"> = (&lt;class 'rest_framework.permissions.IsAdminUser'&gt;, &lt;class 'rest_framework.permissions.IsAuthenticated'&gt;)</em><a class="headerlink" href="#costing.api.views.CostingListAPIView.permission_classes" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt id="costing.api.views.CostingListAPIView.queryset">
+<code class="sig-name descname">queryset</code><em class="property"> = &lt;QuerySet [&lt;CostingModel: Brigade RUbix opted for PLATINIUM created by rajath.ask&#64;gmail.com&gt;, &lt;CostingModel: Brigade RUbix opted for GOLD created by admin&#64;company.com&gt;]&gt;</em><a class="headerlink" href="#costing.api.views.CostingListAPIView.queryset" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt id="costing.api.views.CostingListAPIView.serializer_class">
+<code class="sig-name descname">serializer_class</code><a class="headerlink" href="#costing.api.views.CostingListAPIView.serializer_class" title="Permalink to this definition">¶</a></dt>
+<dd><p>alias of <a class="reference internal" href="costing.api.serializers.html#costing.api.serializers.CostingSerializer" title="costing.api.serializers.CostingSerializer"><code class="xref py py-class docutils literal notranslate"><span class="pre">costing.api.serializers.CostingSerializer</span></code></a></p>
+</dd></dl>
+
+</dd></dl>
+
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="costing.migrations.html" class="btn btn-neutral float-right" title="costing.migrations package" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="costing.api.urls.html" class="btn btn-neutral float-left" title="costing.api.urls module" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        
+        &copy; Copyright 2020, Rajath Kumar K S
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

@@ -1,0 +1,35 @@
+authentication package
+======================
+
+Subpackages
+-----------
+
+.. toctree::
+   :maxdepth: 4
+
+   authentication.api
+   authentication.migrations
+
+Submodules
+----------
+
+.. toctree::
+   :maxdepth: 4
+
+   authentication.admin
+   authentication.apps
+   authentication.managers
+   authentication.models
+   authentication.renderers
+   authentication.tests
+   authentication.urls
+   authentication.utils
+   authentication.views
+
+Module contents
+---------------
+
+.. automodule:: authentication
+   :members:
+   :undoc-members:
+   :show-inheritance:

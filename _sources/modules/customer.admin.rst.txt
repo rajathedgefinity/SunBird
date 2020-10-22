@@ -1,0 +1,7 @@
+customer.admin module
+=====================
+
+.. automodule:: customer.admin
+   :members:
+   :undoc-members:
+   :show-inheritance:

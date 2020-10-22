@@ -1,0 +1,7 @@
+amenities.models module
+=======================
+
+.. automodule:: amenities.models
+   :members:
+   :undoc-members:
+   :show-inheritance:

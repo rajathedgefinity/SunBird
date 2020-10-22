@@ -1,0 +1,7 @@
+propertys.api.urls module
+=========================
+
+.. automodule:: propertys.api.urls
+   :members:
+   :undoc-members:
+   :show-inheritance:

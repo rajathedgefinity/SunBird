@@ -1,0 +1,7 @@
+propertys.views module
+======================
+
+.. automodule:: propertys.views
+   :members:
+   :undoc-members:
+   :show-inheritance:

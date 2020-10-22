@@ -1,0 +1,7 @@
+amenities.views module
+======================
+
+.. automodule:: amenities.views
+   :members:
+   :undoc-members:
+   :show-inheritance:

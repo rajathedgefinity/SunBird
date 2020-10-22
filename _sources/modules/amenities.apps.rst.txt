@@ -1,0 +1,7 @@
+amenities.apps module
+=====================
+
+.. automodule:: amenities.apps
+   :members:
+   :undoc-members:
+   :show-inheritance:

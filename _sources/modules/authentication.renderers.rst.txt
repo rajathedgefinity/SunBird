@@ -1,0 +1,7 @@
+authentication.renderers module
+===============================
+
+.. automodule:: authentication.renderers
+   :members:
+   :undoc-members:
+   :show-inheritance:

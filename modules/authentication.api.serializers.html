@@ -1,0 +1,375 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>authentication.api.serializers module &mdash; SunBird 0.1(beta) documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+
+  
+  
+  
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/doctools.js"></script>
+        <script src="../_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="authentication.api.urls module" href="authentication.api.urls.html" />
+    <link rel="prev" title="authentication.api package" href="authentication.api.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../index.html" class="icon icon-home" alt="Documentation Home"> SunBird
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="authentication.html">authentication package</a><ul class="current">
+<li class="toctree-l2 current"><a class="reference internal" href="authentication.html#subpackages">Subpackages</a><ul class="current">
+<li class="toctree-l3 current"><a class="reference internal" href="authentication.api.html">authentication.api package</a><ul class="current">
+<li class="toctree-l4 current"><a class="reference internal" href="authentication.api.html#submodules">Submodules</a></li>
+<li class="toctree-l4"><a class="reference internal" href="authentication.api.html#module-authentication.api">Module contents</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="authentication.migrations.html">authentication.migrations package</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="authentication.html#submodules">Submodules</a></li>
+<li class="toctree-l2"><a class="reference internal" href="authentication.html#module-authentication">Module contents</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="amenities.html">amenities package</a></li>
+<li class="toctree-l1"><a class="reference internal" href="propertys.html">propertys package</a></li>
+<li class="toctree-l1"><a class="reference internal" href="customer.html">customer package</a></li>
+<li class="toctree-l1"><a class="reference internal" href="costing.html">costing package</a></li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">SunBird</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+          <li><a href="authentication.html">authentication package</a> &raquo;</li>
+        
+          <li><a href="authentication.api.html">authentication.api package</a> &raquo;</li>
+        
+      <li>authentication.api.serializers module</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="../_sources/modules/authentication.api.serializers.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="module-authentication.api.serializers">
+<span id="authentication-api-serializers-module"></span><h1>authentication.api.serializers module<a class="headerlink" href="#module-authentication.api.serializers" title="Permalink to this headline">¶</a></h1>
+<dl class="py class">
+<dt id="authentication.api.serializers.EmailVerificationSerializer">
+<em class="property">class </em><code class="sig-prename descclassname">authentication.api.serializers.</code><code class="sig-name descname">EmailVerificationSerializer</code><span class="sig-paren">(</span><em class="sig-param"><span class="o">*</span><span class="n">args</span></em>, <em class="sig-param"><span class="o">**</span><span class="n">kwargs</span></em><span class="sig-paren">)</span><a class="headerlink" href="#authentication.api.serializers.EmailVerificationSerializer" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">rest_framework.serializers.ModelSerializer</span></code></p>
+<dl class="py class">
+<dt id="authentication.api.serializers.EmailVerificationSerializer.Meta">
+<em class="property">class </em><code class="sig-name descname">Meta</code><a class="headerlink" href="#authentication.api.serializers.EmailVerificationSerializer.Meta" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<dl class="py attribute">
+<dt id="authentication.api.serializers.EmailVerificationSerializer.Meta.fields">
+<code class="sig-name descname">fields</code><em class="property"> = ['token']</em><a class="headerlink" href="#authentication.api.serializers.EmailVerificationSerializer.Meta.fields" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt id="authentication.api.serializers.EmailVerificationSerializer.Meta.model">
+<code class="sig-name descname">model</code><a class="headerlink" href="#authentication.api.serializers.EmailVerificationSerializer.Meta.model" title="Permalink to this definition">¶</a></dt>
+<dd><p>alias of <a class="reference internal" href="authentication.models.html#authentication.models.User" title="authentication.models.User"><code class="xref py py-class docutils literal notranslate"><span class="pre">authentication.models.User</span></code></a></p>
+</dd></dl>
+
+</dd></dl>
+
+</dd></dl>
+
+<dl class="py class">
+<dt id="authentication.api.serializers.LoginSerializer">
+<em class="property">class </em><code class="sig-prename descclassname">authentication.api.serializers.</code><code class="sig-name descname">LoginSerializer</code><span class="sig-paren">(</span><em class="sig-param"><span class="o">*</span><span class="n">args</span></em>, <em class="sig-param"><span class="o">**</span><span class="n">kwargs</span></em><span class="sig-paren">)</span><a class="headerlink" href="#authentication.api.serializers.LoginSerializer" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">rest_framework.serializers.ModelSerializer</span></code></p>
+<dl class="py class">
+<dt id="authentication.api.serializers.LoginSerializer.Meta">
+<em class="property">class </em><code class="sig-name descname">Meta</code><a class="headerlink" href="#authentication.api.serializers.LoginSerializer.Meta" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<dl class="py attribute">
+<dt id="authentication.api.serializers.LoginSerializer.Meta.fields">
+<code class="sig-name descname">fields</code><em class="property"> = ['email', 'password', 'username', 'tokens']</em><a class="headerlink" href="#authentication.api.serializers.LoginSerializer.Meta.fields" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt id="authentication.api.serializers.LoginSerializer.Meta.model">
+<code class="sig-name descname">model</code><a class="headerlink" href="#authentication.api.serializers.LoginSerializer.Meta.model" title="Permalink to this definition">¶</a></dt>
+<dd><p>alias of <a class="reference internal" href="authentication.models.html#authentication.models.User" title="authentication.models.User"><code class="xref py py-class docutils literal notranslate"><span class="pre">authentication.models.User</span></code></a></p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="py method">
+<dt id="authentication.api.serializers.LoginSerializer.validate">
+<code class="sig-name descname">validate</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">attrs</span></em><span class="sig-paren">)</span><a class="headerlink" href="#authentication.api.serializers.LoginSerializer.validate" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="py class">
+<dt id="authentication.api.serializers.RegisterSerializer">
+<em class="property">class </em><code class="sig-prename descclassname">authentication.api.serializers.</code><code class="sig-name descname">RegisterSerializer</code><span class="sig-paren">(</span><em class="sig-param"><span class="o">*</span><span class="n">args</span></em>, <em class="sig-param"><span class="o">**</span><span class="n">kwargs</span></em><span class="sig-paren">)</span><a class="headerlink" href="#authentication.api.serializers.RegisterSerializer" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">rest_framework.serializers.ModelSerializer</span></code></p>
+<dl class="py class">
+<dt id="authentication.api.serializers.RegisterSerializer.Meta">
+<em class="property">class </em><code class="sig-name descname">Meta</code><a class="headerlink" href="#authentication.api.serializers.RegisterSerializer.Meta" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<dl class="py attribute">
+<dt id="authentication.api.serializers.RegisterSerializer.Meta.fields">
+<code class="sig-name descname">fields</code><em class="property"> = ['email', 'username', 'password']</em><a class="headerlink" href="#authentication.api.serializers.RegisterSerializer.Meta.fields" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt id="authentication.api.serializers.RegisterSerializer.Meta.model">
+<code class="sig-name descname">model</code><a class="headerlink" href="#authentication.api.serializers.RegisterSerializer.Meta.model" title="Permalink to this definition">¶</a></dt>
+<dd><p>alias of <a class="reference internal" href="authentication.models.html#authentication.models.User" title="authentication.models.User"><code class="xref py py-class docutils literal notranslate"><span class="pre">authentication.models.User</span></code></a></p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="py method">
+<dt id="authentication.api.serializers.RegisterSerializer.create">
+<code class="sig-name descname">create</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">validated_data</span></em><span class="sig-paren">)</span><a class="headerlink" href="#authentication.api.serializers.RegisterSerializer.create" title="Permalink to this definition">¶</a></dt>
+<dd><p>We have a bit of extra checking around this in order to provide
+descriptive messages when something goes wrong, but this method is
+essentially just:</p>
+<blockquote>
+<div><p>return ExampleModel.objects.create(<a href="#id1"><span class="problematic" id="id2">**</span></a>validated_data)</p>
+</div></blockquote>
+<p>If there are many to many fields present on the instance then they
+cannot be set until the model is instantiated, in which case the
+implementation is like so:</p>
+<blockquote>
+<div><p>example_relationship = validated_data.pop(‘example_relationship’)
+instance = ExampleModel.objects.create(<a href="#id3"><span class="problematic" id="id4">**</span></a>validated_data)
+instance.example_relationship = example_relationship
+return instance</p>
+</div></blockquote>
+<p>The default implementation also does not handle nested relationships.
+If you want to support writable nested relationships you’ll need
+to write an explicit <cite>.create()</cite> method.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="authentication.api.serializers.RegisterSerializer.validate">
+<code class="sig-name descname">validate</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">attrs</span></em><span class="sig-paren">)</span><a class="headerlink" href="#authentication.api.serializers.RegisterSerializer.validate" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="py class">
+<dt id="authentication.api.serializers.ResetPasswordEmailRequestSerializer">
+<em class="property">class </em><code class="sig-prename descclassname">authentication.api.serializers.</code><code class="sig-name descname">ResetPasswordEmailRequestSerializer</code><span class="sig-paren">(</span><em class="sig-param"><span class="o">*</span><span class="n">args</span></em>, <em class="sig-param"><span class="o">**</span><span class="n">kwargs</span></em><span class="sig-paren">)</span><a class="headerlink" href="#authentication.api.serializers.ResetPasswordEmailRequestSerializer" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">rest_framework.serializers.Serializer</span></code></p>
+<dl class="py class">
+<dt id="authentication.api.serializers.ResetPasswordEmailRequestSerializer.Meta">
+<em class="property">class </em><code class="sig-name descname">Meta</code><a class="headerlink" href="#authentication.api.serializers.ResetPasswordEmailRequestSerializer.Meta" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<dl class="py attribute">
+<dt id="authentication.api.serializers.ResetPasswordEmailRequestSerializer.Meta.fields">
+<code class="sig-name descname">fields</code><em class="property"> = ['email']</em><a class="headerlink" href="#authentication.api.serializers.ResetPasswordEmailRequestSerializer.Meta.fields" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+</dd></dl>
+
+<dl class="py class">
+<dt id="authentication.api.serializers.SetNewPasswordSerializer">
+<em class="property">class </em><code class="sig-prename descclassname">authentication.api.serializers.</code><code class="sig-name descname">SetNewPasswordSerializer</code><span class="sig-paren">(</span><em class="sig-param"><span class="o">*</span><span class="n">args</span></em>, <em class="sig-param"><span class="o">**</span><span class="n">kwargs</span></em><span class="sig-paren">)</span><a class="headerlink" href="#authentication.api.serializers.SetNewPasswordSerializer" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">rest_framework.serializers.Serializer</span></code></p>
+<dl class="py class">
+<dt id="authentication.api.serializers.SetNewPasswordSerializer.Meta">
+<em class="property">class </em><code class="sig-name descname">Meta</code><a class="headerlink" href="#authentication.api.serializers.SetNewPasswordSerializer.Meta" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<dl class="py attribute">
+<dt id="authentication.api.serializers.SetNewPasswordSerializer.Meta.fields">
+<code class="sig-name descname">fields</code><em class="property"> = ['password', 'token', 'uidb64']</em><a class="headerlink" href="#authentication.api.serializers.SetNewPasswordSerializer.Meta.fields" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="py method">
+<dt id="authentication.api.serializers.SetNewPasswordSerializer.validate">
+<code class="sig-name descname">validate</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">attrs</span></em><span class="sig-paren">)</span><a class="headerlink" href="#authentication.api.serializers.SetNewPasswordSerializer.validate" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="authentication.api.urls.html" class="btn btn-neutral float-right" title="authentication.api.urls module" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="authentication.api.html" class="btn btn-neutral float-left" title="authentication.api package" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        
+        &copy; Copyright 2020, Rajath Kumar K S
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

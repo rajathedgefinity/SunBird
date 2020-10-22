@@ -1,0 +1,7 @@
+authentication.models module
+============================
+
+.. automodule:: authentication.models
+   :members:
+   :undoc-members:
+   :show-inheritance:

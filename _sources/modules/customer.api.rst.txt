@@ -1,0 +1,20 @@
+customer.api package
+====================
+
+Submodules
+----------
+
+.. toctree::
+   :maxdepth: 4
+
+   customer.api.serializers
+   customer.api.urls
+   customer.api.views
+
+Module contents
+---------------
+
+.. automodule:: customer.api
+   :members:
+   :undoc-members:
+   :show-inheritance:

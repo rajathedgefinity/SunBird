@@ -1,0 +1,32 @@
+propertys package
+=================
+
+Subpackages
+-----------
+
+.. toctree::
+   :maxdepth: 4
+
+   propertys.api
+   propertys.migrations
+
+Submodules
+----------
+
+.. toctree::
+   :maxdepth: 4
+
+   propertys.admin
+   propertys.apps
+   propertys.models
+   propertys.tests
+   propertys.urls
+   propertys.views
+
+Module contents
+---------------
+
+.. automodule:: propertys
+   :members:
+   :undoc-members:
+   :show-inheritance:

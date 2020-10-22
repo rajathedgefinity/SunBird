@@ -1,0 +1,7 @@
+amenities.api.views module
+==========================
+
+.. automodule:: amenities.api.views
+   :members:
+   :undoc-members:
+   :show-inheritance:

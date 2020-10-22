@@ -1,0 +1,7 @@
+sunbird.urls module
+===================
+
+.. automodule:: sunbird.urls
+   :members:
+   :undoc-members:
+   :show-inheritance:

@@ -1,0 +1,20 @@
+sunbird package
+===============
+
+Submodules
+----------
+
+.. toctree::
+   :maxdepth: 4
+
+   sunbird.settings
+   sunbird.urls
+   sunbird.wsgi
+
+Module contents
+---------------
+
+.. automodule:: sunbird
+   :members:
+   :undoc-members:
+   :show-inheritance:

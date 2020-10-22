@@ -1,0 +1,7 @@
+propertys.apps module
+=====================
+
+.. automodule:: propertys.apps
+   :members:
+   :undoc-members:
+   :show-inheritance:

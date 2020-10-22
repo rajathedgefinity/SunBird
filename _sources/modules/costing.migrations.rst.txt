@@ -1,0 +1,19 @@
+costing.migrations package
+==========================
+
+Submodules
+----------
+
+.. toctree::
+   :maxdepth: 4
+
+   costing.migrations.0001_initial
+   costing.migrations.0002_auto_20200915_1225
+
+Module contents
+---------------
+
+.. automodule:: costing.migrations
+   :members:
+   :undoc-members:
+   :show-inheritance:

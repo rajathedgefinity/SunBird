@@ -1,0 +1,33 @@
+customer package
+================
+
+Subpackages
+-----------
+
+.. toctree::
+   :maxdepth: 4
+
+   customer.api
+   customer.migrations
+
+Submodules
+----------
+
+.. toctree::
+   :maxdepth: 4
+
+   customer.admin
+   customer.apps
+   customer.models
+   customer.permissions
+   customer.tests
+   customer.urls
+   customer.views
+
+Module contents
+---------------
+
+.. automodule:: customer
+   :members:
+   :undoc-members:
+   :show-inheritance:

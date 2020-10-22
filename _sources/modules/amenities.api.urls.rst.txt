@@ -1,0 +1,7 @@
+amenities.api.urls module
+=========================
+
+.. automodule:: amenities.api.urls
+   :members:
+   :undoc-members:
+   :show-inheritance:

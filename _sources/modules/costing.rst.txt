@@ -1,0 +1,33 @@
+costing package
+===============
+
+Subpackages
+-----------
+
+.. toctree::
+   :maxdepth: 4
+
+   costing.api
+   costing.migrations
+
+Submodules
+----------
+
+.. toctree::
+   :maxdepth: 4
+
+   costing.admin
+   costing.apps
+   costing.models
+   costing.permissions
+   costing.tests
+   costing.urls
+   costing.views
+
+Module contents
+---------------
+
+.. automodule:: costing
+   :members:
+   :undoc-members:
+   :show-inheritance:

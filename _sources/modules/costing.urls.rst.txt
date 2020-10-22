@@ -1,0 +1,7 @@
+costing.urls module
+===================
+
+.. automodule:: costing.urls
+   :members:
+   :undoc-members:
+   :show-inheritance:

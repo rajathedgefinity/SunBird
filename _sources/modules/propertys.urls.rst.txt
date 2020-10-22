@@ -1,0 +1,7 @@
+propertys.urls module
+=====================
+
+.. automodule:: propertys.urls
+   :members:
+   :undoc-members:
+   :show-inheritance:

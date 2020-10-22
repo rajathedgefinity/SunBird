@@ -1,0 +1,7 @@
+amenities.urls module
+=====================
+
+.. automodule:: amenities.urls
+   :members:
+   :undoc-members:
+   :show-inheritance:

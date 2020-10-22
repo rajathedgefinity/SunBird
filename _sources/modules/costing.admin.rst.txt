@@ -1,0 +1,7 @@
+costing.admin module
+====================
+
+.. automodule:: costing.admin
+   :members:
+   :undoc-members:
+   :show-inheritance:

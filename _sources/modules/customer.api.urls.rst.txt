@@ -1,0 +1,7 @@
+customer.api.urls module
+========================
+
+.. automodule:: customer.api.urls
+   :members:
+   :undoc-members:
+   :show-inheritance:

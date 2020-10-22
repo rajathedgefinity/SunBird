@@ -1,0 +1,20 @@
+authentication.api package
+==========================
+
+Submodules
+----------
+
+.. toctree::
+   :maxdepth: 4
+
+   authentication.api.serializers
+   authentication.api.urls
+   authentication.api.views
+
+Module contents
+---------------
+
+.. automodule:: authentication.api
+   :members:
+   :undoc-members:
+   :show-inheritance:

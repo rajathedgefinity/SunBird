@@ -1,0 +1,7 @@
+amenities.tests module
+======================
+
+.. automodule:: amenities.tests
+   :members:
+   :undoc-members:
+   :show-inheritance:
